@@ -1,0 +1,36 @@
+[package]
+name = "amqp-api-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+amqp-api-shared = "0.1.1"
+cooplan-config-reader = "0.1.0"
+
+tokio = {version = "1", features = ["full"]}
+
+async-channel = "1.9"
+
+async-trait = "0.1"
+
+cooplan-state-tracker = "0.2"
+
+log = "0.4"
+
+lapin = "2.2"
+
+futures-util = "0.3"
+
+multiple-connections-lapin-wrapper = "0.1"
+
+reqwest = {version = "0.11", features = ["json"]}
+
+serde = {version = "1", features = ["derive"]}
+serde_json = "1"
+
+uuid = {version = "1.1", features = ["v4", "fast-rng", "macro-diagnostics"]}
+
+jsonwebtoken = "8"
