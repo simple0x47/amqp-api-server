@@ -1,6 +1,6 @@
 use std::sync::Arc;
-use cooplan_state_tracker::state::State;
-use cooplan_state_tracker::state_tracker_client::StateTrackerClient;
+use state_tracker::state::State;
+use state_tracker::state_tracker_client::StateTrackerClient;
 
 use lapin::Channel;
 use serde_json::Value;

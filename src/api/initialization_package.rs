@@ -1,7 +1,7 @@
 use crate::api::input::input_element::InputElement;
 use crate::error::Error;
 use async_channel::Sender;
-use cooplan_state_tracker::state_tracker_client::StateTrackerClient;
+use state_tracker::state_tracker_client::StateTrackerClient;
 use serde_json::Value;
 use crate::config::api::Api;
 use crate::config::config::Config;

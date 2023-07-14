@@ -18,7 +18,7 @@ async-channel = "1.9"
 
 async-trait = "0.1"
 
-cooplan-state-tracker = "0.2"
+state-tracker = "0.1"
 
 log = "0.4"
 
