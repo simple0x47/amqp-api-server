@@ -1,6 +1,6 @@
 [package]
 name = "amqp-api-server"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Easily create AMQP APIs with embedded token authentication"
 license = "MIT"
